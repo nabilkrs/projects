@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="icon" href="sms.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <script src="progress.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free SMS Texting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<form id="for" name="for">
+    <fieldset>
+       <center> <legend class="text-primary">Free SMS Texting</legend></center>
+<textarea placeholder="Write Your Message" required rows=5 id="msgg" name="message" class="form-control"></textarea><br>
+
+
+<input type="text" placeholder="Write the receiver's number" required id="num" pattern="[+]{1} .{8,}" title="Try to not do mistakes" class="form-control">
+<div id="msg"></div><br>
+<button id="btn" class="btn btn-primary btn-block"  type="submit">Send</button><br>
+<div id=prg></div>
+<div class="progress" id="progre">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" id="bar" role="progressbar" style="width: 0%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">99%</div>
+</div>
+</fieldset>
+</form>
+<script>
+
+
+
+
+</script>
+</body>
+</html>
